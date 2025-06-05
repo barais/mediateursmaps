@@ -40,7 +40,7 @@ async function importSVGMap(canvas: fC) {
 }
 
 async function importUnivs(canvas: fC) {
-  const univs = await axios.get("/assets/univs.json");
+  const univs = await axios.get("assets/univs.json");
   univs.data.forEach((univ: any, index: number) => {
 
 
