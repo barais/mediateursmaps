@@ -19,9 +19,9 @@ async function importOnrs(canvas: fC) {
     });
     o1.on("mouseover", (e1) => {
       document.getElementById("toolTip")!.style.visibility = "visible";
-      document.getElementById("toolTip")!.style.left = o1.getX() + "px";
+      document.getElementById("toolTip")!.style.left = e1.scenePoint.x + "px";
       document.getElementById("toolTip")!.style.top =
-        o1.getY() - 2 * o1.getBoundingRect().height + "px";
+        e1.scenePoint.y - 1.3 * o1.getBoundingRect().height + "px";
     });
     o1.on("mouseout", (e) => {
       document.getElementById("toolTip")!.style.visibility = "hidden";
@@ -30,11 +30,21 @@ async function importOnrs(canvas: fC) {
   });
 }
 
-async function importSVGMap(canvas: fC) {
+let scale = 1;
+let translateX=0
+let translateY=0
+
+  async function importSVGMap(canvas: fC) {
   const o = await fabric.loadSVGFromURL("assets/france.svg");
   var obj = fabric.util.groupSVGElements(o.objects as any);
-  obj.scale(5);
+  scale = Math.floor(window.innerHeight*0.9 /100.0)
+  obj.scale(scale);
+  const oldX = obj.getX();
+  const oldY = obj.getY();
   canvas.centerObject(obj);
+  translateX = obj.getX() -oldX;
+  translateY = obj.getY()-oldY;
+
   obj.selectable = false;
   canvas.add(obj);
 }
@@ -63,10 +73,11 @@ async function importUnivs(canvas: fC) {
   const g = [];
   g.push(c);
   g.push(c1);
+  
   const fg = new fabric.Group(g, {
     centeredScaling: true,
-    left: univ.position.left,
-    top: univ.position.top,
+    left: (univ.position.left )*scale+ translateX,
+    top: (univ.position.top)*scale +translateY,
   });
   fg.selectable = false;
 
@@ -74,23 +85,28 @@ async function importUnivs(canvas: fC) {
     fabric.util.animate({
       startValue: [1, fg.left, fg.top],
       endValue: [1.2, fg.left - 1, fg.top - 1],
-      onChange: ([scale, left, top]) => {
-        fg.scale(scale);
+      onChange: ([sca, left, top]) => {
+        fg.scale(sca);
         fg.top = top;
         fg.left = left;
         canvas.renderAll();
       },
-      duration: 200,
+      duration: 1000,
     });
 
     document.getElementById("toolTip")!.style.visibility = "visible";
     document.getElementById("toolTip")!.style.left = fg.getX() + "px";
     document.getElementById("toolTip")!.style.top =
-      fg.getY() - 2 * fg.getBoundingRect().height + "px";
+      fg.getY() -1 * fg.getBoundingRect().height + "px";
   });
 
   fg.on("mouseout", (e) => {
     document.getElementById("toolTip")!.style.visibility = "hidden";
+            fg.scale(1);
+        fg.left = fg.left;
+        fg.top = fg.top ;
+        canvas.renderAll();
+
   });
 
   canvas.add(fg);
@@ -98,22 +114,45 @@ async function importUnivs(canvas: fC) {
 }
 
 async function main() {
-  var canvas = new fC("c", {
+    const canvas1 = document.getElementById('c') as HTMLCanvasElement;
+  const context = canvas1.getContext('2d');
+
+  // resize the canvas to fill browser window dynamically
+  window.addEventListener('resize', resizeCanvas, false);
+          
+  await resizeCanvas();
+
+ 
+}
+main();
+
+var canvas: fC | undefined;
+
+  async function resizeCanvas() {
+    const c1 = document.getElementById('c') as HTMLCanvasElement;
+    c1.width = window.innerWidth*0.9;
+    c1.height = window.innerHeight*0.9;  
+    if (canvas) {
+      canvas.dispose();
+      canvas.remove();
+    }    
+      canvas = new fC("c", {
     centeredScaling: true,
-  });
+    });
+    
 
   const onr = new FabricText("Organismes de recherche");
   onr.fontSize = 24;
   canvas.add(onr);
 
   canvas.on("mouse:dblclick", (e) => {
-    console.error("Double click detected", e.scenePoint);
+    console.error("Double click detected", (e.scenePoint.x- translateX)/scale ,(e.scenePoint.y-translateY)/scale );
   });
   await importSVGMap(canvas);
   await importOnrs(canvas);
   await importUnivs(canvas);
-}
+  canvas.renderAll()
+  }
 
-main();
 
 // create a rectangle object

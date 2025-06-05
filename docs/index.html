@@ -12,14 +12,41 @@
   font-size: 13px;
   color: #fff;
   visibility: hidden;
+    border-radius: 5px;
+
 }
+
+.container {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  height: 95vh;
+  width: 95vw; 
+}
+
+.centered-element{
+         display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+canvas { display:block;
+
+
+} /* To remove the scrollbars */
 
 </style>
     </head>
     <body>
 
-    <canvas id="c" width="800" height="600"></canvas>        
+      <div class="container">
+    <div class="centered-element">
+    <canvas id="c" ></canvas>        
     <span ref="toolTip" id="toolTip" class="toolTip">ToolTip</span>
+    </div>
+</div>
     <script  language="javascript" src="js/bundle.js"></script>
     </body>
 </html>
