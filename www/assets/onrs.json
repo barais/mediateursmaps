@@ -1,0 +1,62 @@
+[
+  {
+    "name": "CEA",
+    "url": "https://www.cea.fr/",
+    "logo": "/assets/cea.png",
+    "mediateurs": [
+      {
+        "name": "René Boutin",
+        "mediateur": true
+      }
+    ]
+  },
+  {
+    "name": "CNRS",
+    "url": "https://www.cnrs.fr/",
+    "logo": "/assets/cnrs.png",
+    "mediateurs": [
+      {
+        "name": "René Boutin",
+        "mediateur": true
+      }
+    ]
+  },
+  {
+    "name": "INRAE",
+    "url": "https://www.inrae.fr/",
+    "logo": "/assets/inrae.png",
+    "mediateurs": [
+      {
+        "name": "René Boutin",
+        "mediateur": true
+      }
+    ]
+  },
+  {
+    "name": "INRIA",
+    "url": "https://www.inria.fr/",
+    "logo": "/assets/inria.png",
+    "mediateurs": [
+      {
+        "name": "René Boutin",
+        "mediateur": true
+      }
+    ]
+  },
+  {
+    "name": "INSERM",
+    "url": "https://www.inserm.fr/",
+    "logo": "/assets/inserm.png",
+    "mediateurs": [
+      {
+        "name": "René Boutin",
+        "mediateur": true
+      }
+    ]
+  },
+  {
+    "name": "IRD",
+    "url": "https://www.ird.fr/",
+    "logo": "/assets/ird.png"
+  }
+]
