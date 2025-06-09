@@ -1,17 +1,317 @@
 [
   {
-    "name": "Univ Paris",
-    "url": "Univ Paris",
-    "logo": "/assets/univParis.png",
+    "name": "UniversitéParisCité",
+    "url": "UniversitéParisCité",
+    "logo": "/assets/Université_Paris-Cité.png",
     "mediateurs": [
       {
-        "name": "René Boutin",
+        "name": "Chritian Chêne",
         "mediateur": true
       }
     ],
     "position":{
-      "left": 43.81459560518641,
-      "top":25.564732221161357
+      "left":46.642504689862754, 
+      "top":29.327779197323213
+    }
+  },
+  {
+    "name": "SorbonneUniversité",
+    "url": "SorbonneUniversité",
+    "logo": "/assets/Sorbonne_University.png",
+    "mediateurs": [
+      {
+        "name": "Anne-Marie Tièges - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left":51.642504689862754,
+      "top":29.327779197323213
+    }
+  },
+  {
+    "name": "UniversitéGustaveEiffel",
+    "url": "UniversitéGustaveEiffel",
+    "logo": "/assets/Université_Gustave_Eiffel_2020.png",
+    "mediateurs": [
+      {
+        "name": "Marie Fauque ; Emmanuelle Rossignol",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left"56.642504689862754,
+      "top":29.327779197323213
+    }
+  },
+  {
+    "name": "CergyParisUniversité",
+    "url": "CergyParisUniversité",
+    "logo": "/assets/CY_Cergy_Paris_Universite.png",
+    "mediateurs": [
+      {
+        "name": "Virginie Engrand-Linder - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 61.642504689862754,
+      "top":29.327779197323213
+    }
+  },
+  {
+    "name": "EHESS",
+    "url": "EHESS",
+    "logo": "/assets/EHESS.png",
+    "mediateurs": [
+      {
+        "name": "Christophe Duhamelle - Médiateur ; Elisabeth Dutartre - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+     "left":46.642504689862754, 
+      "top":34.327779197323213
+    }
+  },
+  {
+    "name": "UPEC",
+    "url": "UPEC",
+    "logo": "/assets/UPEC.png",
+    "mediateurs": [
+      {
+        "name": "Antoine Meter - Médiateur",
+        "mediateur": true
+      }
+    ],
+    "position":{
+     "left":51.642504689862754, 
+      "top":34.327779197323213
+    }
+  },
+  {
+    "name": "UniversitéEvry",
+    "url": "UniversitéEvry",
+    "logo": "/assets/Université_d'Évry.png",
+    "mediateurs": [
+      {
+        "name": "Josiane Krief - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 56.642504689862754,
+      "top":34.327779197323213
+    }
+  },
+  {
+    "name": "CNAM",
+    "url": "CNAM",
+    "logo": "/assets/CNAM.png",
+    "mediateurs": [
+      {
+        "name": "Marie-Astrid Bertheau ; Najla Fourati",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 61.642504689862754,
+      "top":34.327779197323213
+    }
+  },
+  {
+    "name": "ICP",
+    "url": "ICP",
+    "logo": "/assets/ICP.png",
+    "mediateurs": [
+      {
+        "name": "Shabname Monnot - Médiatrice ; Laurence Villeneuve - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 46.642504689862754,
+      "top":39.327779197323213
+    }
+  },
+   {
+    "name": "UniversitéSorbonneParisNord",
+    "url": "UniversitéSorbonneParisNord",
+    "logo": "/assets/USPN.png",
+    "mediateurs": [
+      {
+        "name": "Martine Janner-Raimondi - Médiatrice ",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 51.642504689862754,
+      "top":39.327779197323213
+    }
+  },
+  {
+    "name": "UniversitéPicardie",
+    "url": "UniversitéPicardie",
+    "logo": "/assets/UniversitéPicardie.png",
+    "mediateurs": [
+      {
+        "name": "Christine Berzin - Médiatrice ; Jean-Marc Poirié - Médiateur",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 44.64341171934117, 
+      "top":14.46111049615134
+    }
+  },
+  {
+    "name": "UniversitéStrasbourg",
+    "url": "UniversitéStrasbourg",
+    "logo": "/assets/Université_de_Strasbourg.png",
+    "mediateurs": [
+      {
+        "name": "Hugues Dreysse - Médiateur",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 78.6279922182074,
+      "top": 26.46111049615134
+    }
+  },
+  {
+    "name": "UniversitéRennes",
+    "url": "UniversitéRennes",
+    "logo": "/assets/Université_de_Rennes.png",
+    "mediateurs": [
+      {
+        "name": "Gilles Lesventes - Médiateur",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 20.321113911329082, 
+      "top":27.794443829484674
+    }
+  },
+  {
+    "name": "LaRochelleUniversité",
+    "url": "LaRochelleUniversité",
+    "logo": "/assets/La_Rochelle_Université.png",
+    "mediateurs": [
+      {
+        "name": "Caroline Asfar-Cazenave - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 24.319299852372183, 
+      "top": 46.46111049615134
+    }
+  },
+  {
+    "name": "UniversitéLimoges",
+    "url": "UniversitéLimoges",
+    "logo": "/assets/Université_de_Limoges.png",
+    "mediateurs": [
+      {
+        "name": "Daniel Marcheix - Médiateur",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 34.98112902848709,
+      "top": 50.46111049615134
+    }
+  },
+  {
+    "name": "UniversitéLyon",
+    "url": "UniversitéLyon",
+    "logo": "/assets/Université_Lyon_1.png",
+    "mediateurs": [
+      {
+        "name": "Jean-François Guérin - Médiateur",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 58.637062512991974,
+      "top": 50.46111049615134
+    }
+  },
+   {
+    "name": "UniversitéBordeaux",
+    "url": "UniversitéBordeaux",
+    "logo": "/assets/Université_Bordeaux.png",
+    "mediateurs": [
+      {
+        "name": "Elisabeth Speletta - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 25.318846337632937,
+      "top": 55.79444382948467
+    }
+  },
+   {
+    "name": "UniversitéAvignon",
+    "url": "UniversitéAvignon"",
+    "logo": "/assets/Université_d'Avignon.png",
+    "mediateurs": [
+      {
+        "name": "Clarisse Vermès",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 55.30524089545607,
+      "top": 62.79444382948467
+    }
+  },
+  {
+    "name": "UniversitéToulouse",
+    "url": "UniversitéToulouse",
+    "logo": "/assets/UnivToulouse.png",
+    "mediateurs": [
+      {
+        "name": "Régine André-Obrecht - Médiatrice",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 36.64703983725504,
+      "top": 65.127777162818
+    }
+  },
+   {
+    "name": "UPPA",
+    "url": "UPPA",
+    "logo": "/assets/UPPA.png",
+    "mediateurs": [
+      {
+        "name": Vincent Lalanne - Médiateur"",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 22.653389043604232,
+      "top": 74.79444382948468
+    }
+  },
+  {
+    "name": "AMU",
+    "url": "AMU",
+    "logo": "/assets/Aix-Marseille_Université.png",
+    "mediateurs": [
+      {
+        "name": "Laurent Pezard - Médiateur",
+        "mediateur": true
+      }
+    ],
+    "position":{
+      "left": 60.636155483513484,
+      "top": 72.127777162818
     }
   }
 
