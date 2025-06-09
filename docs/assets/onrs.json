@@ -2,7 +2,7 @@
   {
     "name": "CEA",
     "url": "https://www.cea.fr/",
-    "logo": "/assets/cea.png",
+    "logo": "assets/cea.png",
     "mediateurs": [
       {
         "name": "Annie Rivoallan - Médiatrice",
@@ -13,7 +13,7 @@
   {
     "name": "CNRS",
     "url": "https://www.cnrs.fr/",
-    "logo": "/assets/cnrs.png",
+    "logo": "assets/cnrs.png",
     "mediateurs": [
       {
         "name": "Pascale Beyma - Médiatrice",
@@ -24,7 +24,7 @@
   {
     "name": "INRAE",
     "url": "https://www.inrae.fr/",
-    "logo": "/assets/inrae.png",
+    "logo": "assets/inrae.png",
     "mediateurs": [
       {
         "name": "Florence Baussant - Médiatrice",
@@ -45,7 +45,7 @@
   {
     "name": "INRIA",
     "url": "https://www.inria.fr/",
-    "logo": "/assets/inria.png",
+    "logo": "assets/inria.png",
     "mediateurs": [
       {
         "name": "Hélène Barucq - Médiatrice",
@@ -56,7 +56,7 @@
   {
     "name": "INSERM",
     "url": "https://www.inserm.fr/",
-    "logo": "/assets/inserm.png",
+    "logo": "assets/inserm.png",
     "mediateurs": [
       {
         "name": "Nathalie Théret - Médiatrice",
@@ -67,7 +67,7 @@
   {
     "name": "IRD",
     "url": "https://www.ird.fr/",
-    "logo": "/assets/ird.png",
+    "logo": "assets/ird.png",
     "mediateurs": [
       {
         "name": "René Boutin - Médiateur",

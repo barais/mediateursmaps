@@ -2,7 +2,7 @@
   {
     "name": "Université Paris Cité",
     "url": "UniversitéParisCité",
-    "logo": "/assets/Université_Paris-Cité.png",
+    "logo": "assets/Université_Paris-Cité.png",
     "mediateurs": [
       {
         "name": "Chritian Chêne - Médiateur",
@@ -17,7 +17,7 @@
   {
     "name": "Sorbonne Université",
     "url": "SorbonneUniversité",
-    "logo": "/assets/Sorbonne_University.png",
+    "logo": "assets/Sorbonne_University.png",
     "mediateurs": [
       {
         "name": "Anne-Marie Tièges - Médiatrice",
@@ -32,7 +32,7 @@
   {
     "name": "Université GustaveEiffel",
     "url": "UniversitéGustaveEiffel",
-    "logo": "/assets/Université_Gustave_Eiffel.png",
+    "logo": "assets/Université_Gustave_Eiffel.png",
     "mediateurs": [
       {
         "name": "Marie Fauque  - Médiatrice",
@@ -51,7 +51,7 @@
   {
     "name": "Cergy Paris Université",
     "url": "Cergy Paris Université",
-    "logo": "/assets/CY_Cergy_Paris_Universite.jpg",
+    "logo": "assets/CY_Cergy_Paris_Universite.jpg",
     "mediateurs": [
       {
         "name": "Virginie Engrand-Linder - Médiatrice",
@@ -66,7 +66,7 @@
   {
     "name": "EHESS",
     "url": "EHESS",
-    "logo": "/assets/EHESS.png",
+    "logo": "assets/EHESS.png",
     "mediateurs": [
       {
         "name": "Christophe Duhamelle - Médiateur",
@@ -85,7 +85,7 @@
   {
     "name": "UPEC",
     "url": "UPEC",
-    "logo": "/assets/UPEC.png",
+    "logo": "assets/UPEC.png",
     "mediateurs": [
       {
         "name": "Antoine Meter - Médiateur",
@@ -100,7 +100,7 @@
   {
     "name": "Université Evry",
     "url": "UniversitéEvry",
-    "logo": "/assets/Université_d'Évry.png",
+    "logo": "assets/Université_d'Évry.png",
     "mediateurs": [
       {
         "name": "Josiane Krief - Médiatrice",
@@ -115,7 +115,7 @@
   {
     "name": "CNAM",
     "url": "CNAM",
-    "logo": "/assets/CNAM.png",
+    "logo": "assets/CNAM.png",
     "mediateurs": [
       {
         "name": "Marie-Astrid Bertheau - Médiatrice",
@@ -136,7 +136,7 @@
   {
     "name": "ICP",
     "url": "ICP",
-    "logo": "/assets/ICP.png",
+    "logo": "assets/ICP.png",
     "mediateurs": [
       {
         "name": "Shabname Monnot - Médiatrice",
@@ -156,7 +156,7 @@
    {
     "name": "Université Sorbonne Paris Nord",
     "url": "UniversitéSorbonneParisNord",
-    "logo": "/assets/USPN.png",
+    "logo": "assets/USPN.png",
     "mediateurs": [
       {
         "name": "Martine Janner-Raimondi - Médiatrice ",
@@ -171,7 +171,7 @@
   {
     "name": "Université Picardie",
     "url": "UniversitéPicardie",
-    "logo": "/assets/UniversitéPicardie.png",
+    "logo": "assets/UniversitéPicardie.png",
     "mediateurs": [
       {
         "name": "Christine Berzin - Médiatrice",
@@ -190,7 +190,7 @@
   {
     "name": "Université Strasbourg",
     "url": "UniversitéStrasbourg",
-    "logo": "/assets/Université_de_Strasbourg.png",
+    "logo": "assets/Université_de_Strasbourg.png",
     "mediateurs": [
       {
         "name": "Hugues Dreysse - Médiateur",
@@ -205,7 +205,7 @@
   {
     "name": "Université Rennes",
     "url": "UniversitéRennes",
-    "logo": "/assets/Université_de_Rennes.png",
+    "logo": "assets/Université_de_Rennes.png",
     "mediateurs": [
       {
         "name": "Gilles Lesventes - Médiateur",
@@ -220,7 +220,7 @@
   {
     "name": "La Rochelle Université",
     "url": "LaRochelleUniversité",
-    "logo": "/assets/La_Rochelle_Université.png",
+    "logo": "assets/La_Rochelle_Université.png",
     "mediateurs": [
       {
         "name": "Caroline Asfar-Cazenave - Médiatrice",
@@ -235,7 +235,7 @@
   {
     "name": "Université Limoges",
     "url": "UniversitéLimoges",
-    "logo": "/assets/Université_de_Limoges.png",
+    "logo": "assets/Université_de_Limoges.png",
     "mediateurs": [
       {
         "name": "Daniel Marcheix - Médiateur",
@@ -250,7 +250,7 @@
   {
     "name": "Université Lyon",
     "url": "UniversitéLyon",
-    "logo": "/assets/Université_Lyon_1.png",
+    "logo": "assets/Université_Lyon_1.png",
     "mediateurs": [
       {
         "name": "Jean-François Guérin - Médiateur",
@@ -265,7 +265,7 @@
    {
     "name": "Université Bordeaux",
     "url": "UniversitéBordeaux",
-    "logo": "/assets/Université_Bordeaux.png",
+    "logo": "assets/Université_Bordeaux.png",
     "mediateurs": [
       {
         "name": "Elisabeth Speletta - Médiatrice",
@@ -280,7 +280,7 @@
    {
     "name": "Université Avignon",
     "url": "UniversitéAvignon",
-    "logo": "/assets/Université_d'Avignon.png",
+    "logo": "assets/Université_d'Avignon.png",
     "mediateurs": [
       {
         "name": "Clarisse Vermès - Médiatrice",
@@ -295,7 +295,7 @@
   {
     "name": "Université Toulouse",
     "url": "UniversitéToulouse",
-    "logo": "/assets/UnivToulouse.png",
+    "logo": "assets/UnivToulouse.png",
     "mediateurs": [
       {
         "name": "Régine André-Obrecht - Médiatrice",
@@ -310,7 +310,7 @@
    {
     "name": "UPPA",
     "url": "UPPA",
-    "logo": "/assets/UPPA.png",
+    "logo": "assets/UPPA.png",
     "mediateurs": [
       {
         "name": "Vincent Lalanne - Médiateur",
@@ -325,7 +325,7 @@
   {
     "name": "AMU",
     "url": "AMU",
-    "logo": "/assets/Aix-Marseille_Université.png",
+    "logo": "assets/Aix-Marseille_Université.png",
     "mediateurs": [
       {
         "name": "Laurent Pezard - Médiateur",
