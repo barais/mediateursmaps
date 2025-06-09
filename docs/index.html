@@ -6,13 +6,29 @@
   position: absolute;
   z-index: 3000;
   background: rgb(186,225,247);
-  height: 30px;
   width: 120px;
   padding: 8px;
   font-size: 13px;
   color: #fff;
   visibility: hidden;
     border-radius: 5px;
+    text-align: center
+
+}
+
+.toolTipImage{
+  border-radius: 2px;
+  max-height: 80px;
+  max-width: 110px;
+
+}
+
+.mediateur{
+  font-style: bold;
+  color: #000;
+  font-size: 14px;
+  margin-top: 5px;
+    margin-bottom: 0px;
 
 }
 
@@ -29,6 +45,7 @@
          display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
 
@@ -44,7 +61,7 @@ canvas { display:block;
       <div class="container">
     <div class="centered-element">
     <canvas id="c" ></canvas>        
-    <span ref="toolTip" id="toolTip" class="toolTip">ToolTip</span>
+    <div ref="toolTip" id="toolTip" class="toolTip">ToolTip</div>
     </div>
 </div>
     <script  language="javascript" src="js/bundle.js"></script>

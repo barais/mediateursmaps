@@ -5,7 +5,7 @@
     "logo": "/assets/cea.png",
     "mediateurs": [
       {
-        "name": "René Boutin",
+        "name": "Annie Rivoallan - Médiatrice",
         "mediateur": true
       }
     ]
@@ -16,7 +16,7 @@
     "logo": "/assets/cnrs.png",
     "mediateurs": [
       {
-        "name": "René Boutin",
+        "name": "Pascale Beyma - Médiatrice",
         "mediateur": true
       }
     ]
@@ -27,9 +27,19 @@
     "logo": "/assets/inrae.png",
     "mediateurs": [
       {
-        "name": "René Boutin",
+        "name": "Florence Baussant - Médiatrice",
+        "mediateur": true
+      },
+            {
+        "name": "Nadège Cousseau - Médiatrice",
+        "mediateur": true
+      },
+            {
+        "name": "Raphaële Riffart - Médiatrice",
         "mediateur": true
       }
+
+
     ]
   },
   {
@@ -38,7 +48,7 @@
     "logo": "/assets/inria.png",
     "mediateurs": [
       {
-        "name": "René Boutin",
+        "name": "Hélène Barucq - Médiatrice",
         "mediateur": true
       }
     ]
@@ -49,7 +59,7 @@
     "logo": "/assets/inserm.png",
     "mediateurs": [
       {
-        "name": "René Boutin",
+        "name": "Nathalie Théret - Médiatrice",
         "mediateur": true
       }
     ]
@@ -57,6 +67,12 @@
   {
     "name": "IRD",
     "url": "https://www.ird.fr/",
-    "logo": "/assets/ird.png"
+    "logo": "/assets/ird.png",
+    "mediateurs": [
+      {
+        "name": "René Boutin - Médiateur",
+        "mediateur": true
+      }
+    ]
   }
 ]
