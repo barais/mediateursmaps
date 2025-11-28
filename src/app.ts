@@ -28,7 +28,7 @@ async function importOnrs(canvas: fC) {
         });
       }
 
-      document.getElementById("toolTip")!.innerHTML = onr.name + '<br/><img class=\"toolTipImage\" src=\"' + onr.logo + '\" alt=\"' + onr.name+ ' logo \" width=\"100\">' +s;
+      document.getElementById("toolTip")!.innerHTML = '<img class=\"toolTipImage\" src=\"' + onr.logo + '\" alt=\"' + onr.name+ ' logo \" width=\"100\">' +s;
 
               document.getElementById("toolTip")!.style.visibility = "visible";
 
